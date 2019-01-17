@@ -166,6 +166,9 @@ body {
   .content {
     max-width: 85%;
   }
+  .logo {
+	margin-top: 4vh;
+	}
   .img-4 {
     bottom: 2vh;
   }
@@ -187,7 +190,7 @@ body {
   	font-size: 2.5vw;
   }
   .img-4 {
-    bottom: 6vh;
+    bottom: 0vh;
     right: 1vw;
     max-width: 100vw;
   }
@@ -196,7 +199,7 @@ body {
   }
   .bottom-imgs a {
     width: 35vw;
-    height: 35vw;
+    height: 26vw;
   }
   .bt-img-1 {
     right: 52vw;
