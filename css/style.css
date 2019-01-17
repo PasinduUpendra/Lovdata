@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Regular.woff') format('woff'),
+        url('fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('fonts/ProximaNovaA-Bold.woff') format('woff'),
+        url('fonts/ProximaNovaA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+	background: #D4E1F4;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+}
+.content {
+	max-width: 90%;
+	margin: 0 auto;
+	z-index: 9999;
+}
+.logo {
+	width: 70%;
+	margin-top: 6vh;
+}
+.sub-title {
+	font-family: 'Proxima Nova';
+	font-size: 2.4vw;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+.player {
+    border: 5px solid #000;
+    width: 90%;
+    margin: 0 auto; 
+}
+.bottom-text {
+	font-family: 'Permanent Marker', cursive;
+	background: url(../img/orange-bg@2x.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
+	padding: 5% 4vw 5vw 4vw;
+	color: #ffffff;
+	text-align: center;
+}
+.bottom-text h2 {
+    max-width: 90%;
+    margin: 0 auto;
+ }
+.bg-imgs {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.bg-img {
+	position: absolute;
+	z-index: -1;
+}
+.img-1 {
+    top: 1vh;
+    left: 1vw;
+    max-width: 24vw;
+}
+.img-2 {
+    bottom: 6vh;
+    left: 2vw;
+    max-width: 20vw;
+}
+.img-3 {
+    top: -4vh;
+    right: -4vw;
+    max-width: 33vw;
+}
+.img-4 {
+    bottom: 6vh;
+    right: 0vw;
+    max-width: 23vw;
+}
+.copy-right p{
+	color: #666666;
+	font-size: .9vw;
+	font-weight: 500;
+}
