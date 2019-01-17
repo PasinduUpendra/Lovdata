@@ -52,6 +52,7 @@ body {
 .bottom-text h2 {
     max-width: 90%;
     margin: 0 auto;
+    font-size: 2vw;
  }
 .bg-imgs {
 	position: absolute;
@@ -87,4 +88,34 @@ body {
 	color: #666666;
 	font-size: .9vw;
 	font-weight: 500;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo {
+	margin-top: 18vh;
+	}
+  .bottom-text {
+  	min-height: 65px;
+  }
+  .content {
+  	max-width: 100%;
+  }
+  .sub-title {
+    font-size: 1.6vh;
+  }
+  .img-1 {
+  	max-width: 34vw;
+  }
+  .img-2{
+    max-width: 30vw;
+  }
+  .img-3 {
+    top: -3vh;
+    right: -3vw;
+    max-width: 42vw;
+  }
+  .img-4 {
+    bottom: 6vh;
+    right: 1vw;
+    max-width: 34vw;
+  }
 }
