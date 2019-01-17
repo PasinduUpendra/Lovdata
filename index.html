@@ -20,36 +20,44 @@
 
 <main role="main" class="container-fluid">
     <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 text-center">
+      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 text-center top-layer">
         <div class="content">
           <img class="logo" src="img/logo@2x.png" alt="Lovdata Pro logo"/>
           <h1 class="sub-title">Ditt viktigste juridiske arbeidsverktøy</h1>
           <div class="player">
-            <video autoplay id="video_1" class="video-js vjs-default-skin" width="100%"
+            <!--<video autoplay id="video_1" class="video-js vjs-default-skin" width="100%"
             controls poster='http://video-js.zencoder.com/oceans-clip.jpg'
             data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
               <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
               <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
-            </video>
+            </video>-->
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/311864937?title=0&byline=0&portrait=0&autoplay=1&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
           </div>
         </div>
         <div class="bottom-text">
           <h2>– nå også med funksjon for å innarbeide teksten med markeringer, understrekinger og merknader</2>
         </div>
         <div class="copy-right">
-          <p>Lovdata Pro er en tjeneste fra Stiftelsen Lovdata ©2019. <a href="#" style="color: #; text-decoration: underline;">Cookies og personvern</a></p>
+          <p>Lovdata Pro er en tjeneste fra Stiftelsen Lovdata ©2019. <a href="https://lovdata.no/info/personvern" style="color: #; text-decoration: underline;">Cookies og personvern</a></p>
         </div>
       </div>
       <div class="bg-imgs">
         <img class="bg-img img-1" src="img/img_1@2x.png">
         <img class="bg-img img-2" src="img/img_2@2x.png">
         <img class="bg-img img-3" src="img/img_3@2x.png">
-        <img class="bg-img img-4" src="img/img_4@2x.png">
+        <div class="bottom-imgs bg-img img-4">
+          <a class="bt-img-1 bell" href="https://lovdata.helpscoutdocs.com/article/167-markering-av-tekst"><img class="bg-img " src="img/bt-img-1.png"></a>
+          <a class="bt-img-2 bell" href="https://lovdata.no/tjenester/pro/"><img class="bg-img" src="img/bt-img-2.png"></a>
+          <a class="bt-img-3 bell" href="https://lovdata.no/tjenester/pro/tilgang"><img class="bg-img" src="img/bt-img-3.png"></a>
+          <a class="bt-img-4 bell" href="https://lovdata.no/tjenester/pro/brukerstotte"><img class="bg-img" src="img/bt-img-4.png"></a>
+        </div>
       </div>
     </div>
 </main><!-- /.container -->
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/video.js"></script>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+      
     </body>
 </html>
